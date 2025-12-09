@@ -63,8 +63,10 @@ header h1 {
 /* 5. 積みゲーリスト */
 .game-list {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    max-width: calc(3 * 300px + 2 * 20px);
     gap: 20px;
+    margin: 0 auto;
 }
 
 /* 6. 積みゲーカード（豆腐の塊） */
@@ -74,7 +76,7 @@ header h1 {
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.08); /* 少し強めの影で浮かせます */
     padding: 15px;
     overflow: hidden;
-    display: flex;
+    display:flex;
     flex-direction: column;
 }
 
