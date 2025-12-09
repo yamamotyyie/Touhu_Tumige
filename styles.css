@@ -97,8 +97,8 @@ header h1 {
 
 /* ステータスごとの色分け */
 .status-not-played {
-    background-color: #FEF3C7; /* 薄い黄色 */
-    color: #92400E;
+    background-color: red; /* 薄い黄色 */
+    color: black;
 }
 
 .status-playing {
